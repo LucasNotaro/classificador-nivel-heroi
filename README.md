@@ -1,6 +1,8 @@
 # Classificador de Nível de Herói
 
-Este projeto classifica o nível de um herói com base em sua quantidade de experiência (XP). Ele utiliza uma estrutura de decisão para definir o nível do herói e exibe o resultado no console.
+Este projeto foi proposto pela [Digital Innovation One](https://www.dio.me/) como parte do **bootcamp GFT Start #6 - Lógica de Programação.**
+
+O projeto classifica o nível de um herói com base em sua quantidade de experiência (XP). Ele utiliza uma estrutura de decisão para definir o nível do herói e exibe o resultado no console.
 
 ## 🚀 Tecnologias Utilizadas
 - JavaScript
