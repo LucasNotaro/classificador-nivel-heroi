@@ -1,21 +1,22 @@
-let Notaro = 9000;
+let nome = "Notaro";
+let xp = 7500;
 
-if (Notaro < 1000) {
+if (xp < 1000) {
     nivel = "Ferro";
-} else if (Notaro <= 2000) {
+} else if (xp <= 2000) {
     nivel = "Bronze";
-} else if (Notaro <= 5000) {
+} else if (xp <= 5000) {
     nivel = "Prata";
-} else if (Notaro <= 7000) {
+} else if (xp <= 7000) {
     nivel = "Ouro";
-} else if (Notaro <= 8000) {
+} else if (xp <= 8000) {
     nivel = "Platina";
-} else if (Notaro <= 9000) {
+} else if (xp <= 9000) {
     nivel = "Ascendente";
-} else if (Notaro <= 10000) {
+} else if (xp <= 10000) {
     nivel = "Imortal";
 } else {
     nivel = "Radiante";
 }
 
-console.log(nivel);
+console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
