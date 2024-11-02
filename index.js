@@ -1,21 +1,21 @@
 let Notaro = 9000;
 
 if (Notaro < 1000) {
-    "Ferro";
+    nivel = "Ferro";
 } else if (Notaro <= 2000) {
-    "Bronze";
+    nivel = "Bronze";
 } else if (Notaro <= 5000) {
-    "Prata";
+    nivel = "Prata";
 } else if (Notaro <= 7000) {
-    "Ouro";
+    nivel = "Ouro";
 } else if (Notaro <= 8000) {
-    "Platina";
+    nivel = "Platina";
 } else if (Notaro <= 9000) {
-   "Ascendente";
+    nivel = "Ascendente";
 } else if (Notaro <= 10000) {
-    "Imortal";
+    nivel = "Imortal";
 } else {
-    "Radiante";
+    nivel = "Radiante";
 }
 
-console.log(Notaro);
+console.log(nivel);
